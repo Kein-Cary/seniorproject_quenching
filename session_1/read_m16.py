@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 """Read the Mandelbaum+2016 Weak Lensing data."""
 
-m16path = 'D:/mask/seniorproject_quenching-master/data/M16/'
+m16path = '../data/M16/'
 
 def read_m16_ds(use_red=True, mass_bin='10.0_10.4'):
     """Read DeltaSigma data from Mandelbaum+16.
